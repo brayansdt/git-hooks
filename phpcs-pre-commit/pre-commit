@@ -6,8 +6,8 @@
 #
 # see the README
 
-PHPCS_BIN=/usr/bin/phpcs
-PHPCS_CODING_STANDARD=PEAR
+PHPCS_BIN=/usr/local/bin/phpcs
+PHPCS_CODING_STANDARD=PSR2
 PHPCS_IGNORE=
 TMP_STAGING=".tmp_staging"
 
