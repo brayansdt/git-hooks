@@ -3,6 +3,7 @@
 #
 # @author Soenke Ruempler <soenke@ruempler.eu>
 # @author Sebastian Kaspari <s.kaspari@googlemail.com>
+# @author Brayan Dichtl <brayandt@gmail.com>
 #
 # see the README
 
@@ -10,12 +11,6 @@ PHPCS_BIN=/usr/local/bin/phpcs
 PHPCS_CODING_STANDARD=PSR2
 PHPCS_IGNORE=
 TMP_STAGING=".tmp_staging"
-
-# parse config
-CONFIG_FILE=$(dirname $0)/config
-if [ -e $CONFIG_FILE ]; then
-    . $CONFIG_FILE
-fi
 
 # simple check if code sniffer is set up correctly
 if [ ! -x $PHPCS_BIN ]; then
