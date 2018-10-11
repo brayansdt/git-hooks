@@ -1,4 +1,2 @@
-git-hooks collection (ABANDONED)
-
-Currently just a pre-commit hook for PHP Codesniffer
+Collection of usefull git-hooks
 
