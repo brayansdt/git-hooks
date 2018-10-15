@@ -17,6 +17,6 @@ INSTALATION / USAGE
  
  * ```cd your-project-path/.git/hooks```
  * ```curl -O https://raw.githubusercontent.com/brayansdt/git-hooks/master/phpcs-pre-commit/pre-commit```
- * open pre-commit with your text editor and set PHPCS_BIN variable to the output of ```which phpcs```
+ * open pre-commit with your text editor and set `PHPCS_BIN` variable to the output of ```which phpcs```
  * save and close the file
  * ```chmod a+x pre-commit```
